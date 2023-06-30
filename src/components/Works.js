@@ -1,9 +1,9 @@
 import WorksCard from "./WorksCard.js"
 
 import hr from "../assets/curve-hr.svg"
-import mtcna from "../assets/certs/mtcna.jpg"
 import blankalt from "../assets/certs/blank.jpg"
 import gooseflix from "../assets/works/works1.png"
+import wvgsspp from "../assets/works/works2.png"
 
 // import 
 
@@ -18,7 +18,8 @@ export default function Works(){
             <WorksCard name="GooseFlix" img={gooseflix} 
             issued="A movie search website with a comprehensive database of films, including titles, rating , and release dates." 
             date="Jun 2023" href="https://gooseflix.vercel.app/" />
-                <WorksCard name="Coming Soon" img={blankalt} issued="author" date="Oct 2020" />
+                <WorksCard name="SPP Payment Website" img={wvgsspp} issued="A comprehensive platform designed to simplify the process of paying school tuition fees.
+                --user/pass:admin--" date="Oct 2022" href="https://wvgs-spp.000webhostapp.com/"/>
                 <WorksCard name="Coming Soon" img={blankalt} issued="author" date="Oct 2020" />
 
             </div>
