@@ -19,7 +19,7 @@ export default function Works(){
             issued="A movie search website with a comprehensive database of films, including titles, rating , and release dates." 
             date="Jun 2023" href="https://gooseflix.vercel.app/" />
                 <WorksCard name="SPP Payment Website" img={wvgsspp} issued="A comprehensive platform designed to simplify the process of paying school tuition fees.
-                --user/pass:admin--" date="Oct 2022" href="https://wvgs-spp.000webhostapp.com/"/>
+                (username/pass : user)" date="Oct 2022" href="https://wvgs-spp.000webhostapp.com/"/>
                 <WorksCard name="Coming Soon" img={blankalt} issued="author" date="Oct 2020" />
 
             </div>
