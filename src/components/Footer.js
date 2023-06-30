@@ -6,6 +6,7 @@ export default function Footer(){
       <ul className="text-center">
         <li><a href="#home" className="hover:underline">About</a></li>
         <li><a href="#skills" className="hover:underline">Skills</a></li>
+        <li><a href="#works" className="hover:underline">My Works</a></li>
         <li><a href="#honors" className="hover:underline">Long Story Short</a></li>
         <li><a href="#certs" className="hover:underline">Certfications</a></li>
       </ul>
