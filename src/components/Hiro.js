@@ -26,7 +26,7 @@ export default function Hiro () {
             <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
                 <div className="flex flex-col w-full mt-8">
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
-                    <h1 className="text-2xl font-bold">Yozakha Kirnanta</h1>
+                    <h1 className="text-2xl font-bold">WVGS</h1>
                     <p class="text-xl font-bold text-gray-300">Front-end Dev.</p>
                     <p className="text-md font-light text-gray-400">As a student currently pursuing my studies in Malang, I'm excited to showcase my diverse skill set. Now I am looking for more experience in my field.</p>
                 </div>
