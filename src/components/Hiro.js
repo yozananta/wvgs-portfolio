@@ -34,13 +34,13 @@ export default function Hiro () {
                 
                 <ul className='flex mt-2 gap-4 items-center'>
                    <li>
-                        <a href='https://github.com/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
+                        <a href='https://github.com/yozananta' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
                    </li> 
                     <li>
                         <a href='https://instagram.com/yozananta' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a>
                     </li>
                     <li>
-                        <a href='htps://linkedin.com/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
+                        <a href='https://www.linkedin.com/in/yozananta/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
                     </li>
                 </ul>
             </div>
