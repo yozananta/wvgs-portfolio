@@ -22,7 +22,7 @@ export default function Certs(){
 
             {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
             <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
-                <CertCard name="Dicoding Academy" img={dicoding} issued="Dicoding Academy" date="Sep 2024" />
+                <CertCard name="Dicoding Academy" img={dicoding1} issued="Dicoding Academy" date="Sep 2024" />
                 <CertCard name="Bootcamp Alterra Academy" img={alterra} issued="Alterra Academy" date="Mar 2023" />
                 <CertCard name="Mikrotik Certfied Network Associate" img={mtcna} issued="Mikrotik" date="Jul 2019" />
                 <CertCard name="Axel Bit Training Centre" img={axelbit} issued="Axel Bit" date="Jan 2020" />
