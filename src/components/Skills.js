@@ -30,7 +30,7 @@ export default function Skills() {
     };
 
     const skillsData = [
-        { name: "C#", img: csharp, startYear: 2022 },
+        { name: "C#", img: csharp, startYear: 2025 },
         { name: "Vue", img: vue, startYear: 2022 },
         { name: "React", img: reactIcon, startYear: 2022 },
         { name: "JavaScript", img: javascript, startYear: 2021 },
