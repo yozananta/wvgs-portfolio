@@ -2,8 +2,8 @@ import {useState} from 'react'
 
 import profile from '../assets/pp2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faCircleArrowRight, } from "@fortawesome/free-solid-svg-icons";
-import {  faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faCircleArrowRight, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import hr from '../assets/curve-hr.svg'
 
 export default function Hiro () {
@@ -26,21 +26,27 @@ export default function Hiro () {
             <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
                 <div className="flex flex-col w-full mt-8">
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
-                    <h1 className="text-2xl font-bold">WVGS</h1>
-                    <p class="text-xl font-bold text-gray-300">Front-end Dev.</p>
-                    <p className="text-md font-light text-gray-400">As a student currently pursuing my studies in Malang, I'm excited to showcase my diverse skill set. Now I am looking for more experience in my field.</p>
+                    <h1 className="text-2xl font-bold">Yoza</h1>
+                    <p className="text-xl font-bold text-gray-300">Back-end Dev.</p>
+                    <p className="text-md font-light text-gray-400 ">
+                        Currently working as a Back End Developer at Indomaret Group, I am excited to showcase my diverse skill set and professional experience.
+                    </p>
                 </div>
-                <a href='/' className='mt-2 block'>Go to My Blog <FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>
+                
+                {/* Updated CTA Button */}
+                <a href='mailto:yozananta@gmail.com' className='mt-2 block w-fit hover:text-gray-300 transition-colors'>
+                    Let's Connect <FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> 
+                </a>
                 
                 <ul className='flex mt-2 gap-4 items-center'>
-                   <li>
-                        <a href='https://github.com/yozananta' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
-                   </li> 
                     <li>
-                        <a href='https://instagram.com/yozananta' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a>
-                    </li>
+                        <a href='https://github.com/yozananta' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
+                    </li> 
                     <li>
                         <a href='https://www.linkedin.com/in/yozananta/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
+                    </li>
+                    <li>
+                        <a href='mailto:yozananta@gmail.com' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faEnvelope} /></a>
                     </li>
                 </ul>
             </div>
