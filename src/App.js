@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 
 function App() {
     useEffect(() => {
-      document.title = 'WVGS-Portfolio';
+      document.title = 'Yozakha Kirnanta | Portfolio';
       AOS.init();
     }, []);
   return (
